@@ -1,0 +1,7 @@
+# Add environment-specific values here, without secrets.
+environment = "dev"
+location    = "eastus"
+project_name = "tmps-analytics"
+tags = {
+  owner = "data-platform"
+}
