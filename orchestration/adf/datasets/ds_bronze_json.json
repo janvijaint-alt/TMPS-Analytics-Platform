@@ -1,0 +1,10 @@
+{
+  "name": "ds_bronze_json",
+  "properties": {
+    "linkedServiceName": { "referenceName": "ls_adls_managed_identity", "type": "LinkedServiceReference" },
+    "parameters": { "path": { "type": "String" } },
+    "type": "Json",
+    "typeProperties": { "location": { "type": "AzureBlobFSLocation", "fileSystem": "bronze", "folderPath": "@dataset().path" } },
+    "schema": {}
+  }
+}
